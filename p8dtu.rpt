@@ -1,0 +1,178 @@
+                    Sensor Name |   FRU Name | Ent ID | Type |   ID | Inst |  FRU |       HUID | Target
+ ------------------------------ | ---------- | ------ | ---- | ---- | ---- | ---- | ---------- | ----------
+              SYS0_System_Event |       SYS0 |  0x01  | 0x12 | 0x61 |    0 |   47 |            | /sys-0
+               SYS0_Host_Status |       SYS0 |  0x23  | 0x22 | 0x04 |    0 |   47 |            | /sys-0
+    SYS0_Firmware_Boot_Progress |       SYS0 |  0x22  | 0x0F | 0x05 |    0 |   47 |            | /sys-0
+         SYS0_PCIE_Link_Present |       SYS0 |  0x23  | 0xC4 | 0xB6 |    0 |   47 |            | /sys-0
+                   SYS0_OS_Boot |       SYS0 |  0x23  | 0x1F | 0xB5 |    0 |   47 |            | /sys-0
+                 SYS0_Power_Cap |       SYS0 |  0x17  | 0xC2 | 0xB3 |    0 |   47 |            | /sys-0
+                SYS0_Boot_count |       SYS0 |  0x22  | 0xC3 | 0x5F |    0 |   47 |            | /sys-0
+        SYS0_Power_Limit_Active |       SYS0 |  0x15  | 0xC6 | 0x62 |    0 |   47 |            | /sys-0
+        SYS0_PS_Derating_Factor |       SYS0 |  0x15  | 0xC8 | 0xB4 |    0 |   47 |            | /sys-0
+                      SYS0_Freq |       SYS0 |  0x08  | 0xC1 | 0x5E |    0 |   47 |            | /sys-0
+             Memory_Proc0_Power |            |  0xD7  | 0xC2 | 0xAC |   11 |    0 |            | /sys-0
+             Memory_Proc1_Power |            |  0xD7  | 0xC2 | 0xAD |   12 |    0 |            | /sys-0
+             Memory_Proc2_Power |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+             Memory_Proc3_Power |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+                    Proc0_Power |            |  0xD7  | 0xC2 | 0xA2 |    1 |    0 |            | /sys-0
+                    Proc1_Power |            |  0xD7  | 0xC2 | 0xA3 |    2 |    0 |            | /sys-0
+                    Proc2_Power |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+                    Proc3_Power |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+               PCIE_Proc0_Power |            |  0xD7  | 0xC2 | 0xA6 |    5 |    0 |            | /sys-0
+               PCIE_Proc1_Power |            |  0xD7  | 0xC2 | 0xA7 |    6 |    0 |            | /sys-0
+               PCIE_Proc2_Power |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+               PCIE_Proc3_Power |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+                     IO_A_Power |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+                     IO_B_Power |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+                     IO_C_Power |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+                    Fan_Power_A |            |  0xD7  | 0xC2 | 0xB0 |   15 |    0 |            | /sys-0
+                    Fan_Power_B |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+                Storage_Power_A |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+                Storage_Power_B |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+             Total_System_Power |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+             Memory_Cache_Power |            |  0xD7  | 0xC2 | 0xAB |   10 |    0 |            | /sys-0
+           Memory_Proc0_0_Power |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+           Memory_Proc0_1_Power |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+           Memory_Proc0_2_Power |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+                       12VSense |            |  0xD7  | 0xC2 | 0xA1 |    0 |    0 |            | /sys-0
+                    GroundSense |            |  0xD7  | 0xC2 |      |    0 |    0 |            | /sys-0
+                       GPUSense |            |  0xD7  | 0xC2 | 0xAA |    9 |    0 |            | /sys-0
+       PLANAR_Motherboard_Fault |     PLANAR |  0x07  | 0xC7 | 0x60 |    0 |    3 | 0x00020000 | /sys-0/node-0
+               PLANAR_Ref_Clock |     PLANAR |  0xD4  | 0xC7 | 0x63 |    0 |    3 | 0x00020000 | /sys-0/node-0
+               PLANAR_PCI_Clock |     PLANAR |  0xD5  | 0xC7 | 0x64 |    0 |    3 | 0x00020000 | /sys-0/node-0
+               PLANAR_TOD_Clock |     PLANAR |  0xD6  | 0xC7 | 0xB1 |    0 |    3 | 0x00020000 | /sys-0/node-0
+              PLANAR_APSS_Fault |     PLANAR |  0xD7  | 0xC7 | 0xB2 |    0 |    3 | 0x00020000 | /sys-0/node-0
+                     DIMM0_Temp |      DIMM0 |  0x20  | 0x01 | 0x69 |    0 |   12 | 0x00030004 | /sys-0/node-0/ponderosa-0/birchconn-0/birch-0/dimmconn-0/dimm-0
+                     DIMM0_Func |      DIMM0 |  0x20  | 0x0C | 0x1E |    0 |   12 | 0x00030004 | /sys-0/node-0/ponderosa-0/birchconn-0/birch-0/dimmconn-0/dimm-0
+                     DIMM1_Temp |      DIMM1 |  0x20  | 0x01 | 0x6A |    1 |   13 | 0x00030005 | /sys-0/node-0/ponderosa-0/birchconn-0/birch-0/dimmconn-1/dimm-0
+                     DIMM1_Func |      DIMM1 |  0x20  | 0x0C | 0x1F |    1 |   13 | 0x00030005 | /sys-0/node-0/ponderosa-0/birchconn-0/birch-0/dimmconn-1/dimm-0
+                     DIMM2_Temp |      DIMM2 |  0x20  | 0x01 | 0x6B |    2 |   14 | 0x00030006 | /sys-0/node-0/ponderosa-0/birchconn-0/birch-0/dimmconn-2/dimm-0
+                     DIMM2_Func |      DIMM2 |  0x20  | 0x0C | 0x20 |    2 |   14 | 0x00030006 | /sys-0/node-0/ponderosa-0/birchconn-0/birch-0/dimmconn-2/dimm-0
+                     DIMM3_Temp |      DIMM3 |  0x20  | 0x01 | 0x6C |    3 |   15 | 0x00030007 | /sys-0/node-0/ponderosa-0/birchconn-0/birch-0/dimmconn-3/dimm-0
+                     DIMM3_Func |      DIMM3 |  0x20  | 0x0C | 0x21 |    3 |   15 | 0x00030007 | /sys-0/node-0/ponderosa-0/birchconn-0/birch-0/dimmconn-3/dimm-0
+                   MEMBUF0_Temp |    MEMBUF0 |  0xD1  | 0x01 | 0x65 |    0 |    4 | 0x00040001 | /sys-0/node-0/ponderosa-0/birchconn-0/birch-0/membuf-0
+                   MEMBUF0_Func |    MEMBUF0 |  0xD1  | 0x0C | 0x56 |    0 |    4 | 0x00040001 | /sys-0/node-0/ponderosa-0/birchconn-0/birch-0/membuf-0
+                     DIMM4_Temp |      DIMM4 |  0x20  | 0x01 | 0x6D |    4 |   16 | 0x00030000 | /sys-0/node-0/ponderosa-0/birchconn-1/birch-0/dimmconn-0/dimm-0
+                     DIMM4_Func |      DIMM4 |  0x20  | 0x0C | 0x22 |    4 |   16 | 0x00030000 | /sys-0/node-0/ponderosa-0/birchconn-1/birch-0/dimmconn-0/dimm-0
+                     DIMM5_Temp |      DIMM5 |  0x20  | 0x01 | 0x6E |    5 |   17 | 0x00030001 | /sys-0/node-0/ponderosa-0/birchconn-1/birch-0/dimmconn-1/dimm-0
+                     DIMM5_Func |      DIMM5 |  0x20  | 0x0C | 0x23 |    5 |   17 | 0x00030001 | /sys-0/node-0/ponderosa-0/birchconn-1/birch-0/dimmconn-1/dimm-0
+                     DIMM6_Temp |      DIMM6 |  0x20  | 0x01 | 0x6F |    6 |   18 | 0x00030002 | /sys-0/node-0/ponderosa-0/birchconn-1/birch-0/dimmconn-2/dimm-0
+                     DIMM6_Func |      DIMM6 |  0x20  | 0x0C | 0x24 |    6 |   18 | 0x00030002 | /sys-0/node-0/ponderosa-0/birchconn-1/birch-0/dimmconn-2/dimm-0
+                     DIMM7_Temp |      DIMM7 |  0x20  | 0x01 | 0x70 |    7 |   19 | 0x00030003 | /sys-0/node-0/ponderosa-0/birchconn-1/birch-0/dimmconn-3/dimm-0
+                     DIMM7_Func |      DIMM7 |  0x20  | 0x0C | 0x25 |    7 |   19 | 0x00030003 | /sys-0/node-0/ponderosa-0/birchconn-1/birch-0/dimmconn-3/dimm-0
+                   MEMBUF1_Temp |    MEMBUF1 |  0xD1  | 0x01 | 0x66 |    1 |    5 | 0x00040000 | /sys-0/node-0/ponderosa-0/birchconn-1/birch-0/membuf-0
+                   MEMBUF1_Func |    MEMBUF1 |  0xD1  | 0x0C | 0x57 |    1 |    5 | 0x00040000 | /sys-0/node-0/ponderosa-0/birchconn-1/birch-0/membuf-0
+                     DIMM8_Temp |      DIMM8 |  0x20  | 0x01 | 0x71 |    8 |   20 | 0x00030008 | /sys-0/node-0/ponderosa-0/birchconn-2/birch-0/dimmconn-0/dimm-0
+                     DIMM8_Func |      DIMM8 |  0x20  | 0x0C | 0x26 |    8 |   20 | 0x00030008 | /sys-0/node-0/ponderosa-0/birchconn-2/birch-0/dimmconn-0/dimm-0
+                     DIMM9_Temp |      DIMM9 |  0x20  | 0x01 | 0x72 |    9 |   21 | 0x00030009 | /sys-0/node-0/ponderosa-0/birchconn-2/birch-0/dimmconn-1/dimm-0
+                     DIMM9_Func |      DIMM9 |  0x20  | 0x0C | 0x27 |    9 |   21 | 0x00030009 | /sys-0/node-0/ponderosa-0/birchconn-2/birch-0/dimmconn-1/dimm-0
+                    DIMM10_Temp |     DIMM10 |  0x20  | 0x01 | 0x73 |   10 |   22 | 0x0003000A | /sys-0/node-0/ponderosa-0/birchconn-2/birch-0/dimmconn-2/dimm-0
+                    DIMM10_Func |     DIMM10 |  0x20  | 0x0C | 0x28 |   10 |   22 | 0x0003000A | /sys-0/node-0/ponderosa-0/birchconn-2/birch-0/dimmconn-2/dimm-0
+                    DIMM11_Temp |     DIMM11 |  0x20  | 0x01 | 0x74 |   11 |   23 | 0x0003000B | /sys-0/node-0/ponderosa-0/birchconn-2/birch-0/dimmconn-3/dimm-0
+                    DIMM11_Func |     DIMM11 |  0x20  | 0x0C | 0x29 |   11 |   23 | 0x0003000B | /sys-0/node-0/ponderosa-0/birchconn-2/birch-0/dimmconn-3/dimm-0
+                   MEMBUF2_Temp |    MEMBUF2 |  0xD1  | 0x01 | 0x67 |    2 |    6 | 0x00040002 | /sys-0/node-0/ponderosa-0/birchconn-2/birch-0/membuf-0
+                   MEMBUF2_Func |    MEMBUF2 |  0xD1  | 0x0C | 0x58 |    2 |    6 | 0x00040002 | /sys-0/node-0/ponderosa-0/birchconn-2/birch-0/membuf-0
+                    DIMM12_Temp |     DIMM12 |  0x20  | 0x01 | 0x75 |   12 |   24 | 0x0003000C | /sys-0/node-0/ponderosa-0/birchconn-3/birch-0/dimmconn-0/dimm-0
+                    DIMM12_Func |     DIMM12 |  0x20  | 0x0C | 0x2A |   12 |   24 | 0x0003000C | /sys-0/node-0/ponderosa-0/birchconn-3/birch-0/dimmconn-0/dimm-0
+                    DIMM13_Temp |     DIMM13 |  0x20  | 0x01 | 0x76 |   13 |   25 | 0x0003000D | /sys-0/node-0/ponderosa-0/birchconn-3/birch-0/dimmconn-1/dimm-0
+                    DIMM13_Func |     DIMM13 |  0x20  | 0x0C | 0x2B |   13 |   25 | 0x0003000D | /sys-0/node-0/ponderosa-0/birchconn-3/birch-0/dimmconn-1/dimm-0
+                    DIMM14_Temp |     DIMM14 |  0x20  | 0x01 | 0x77 |   14 |   26 | 0x0003000E | /sys-0/node-0/ponderosa-0/birchconn-3/birch-0/dimmconn-2/dimm-0
+                    DIMM14_Func |     DIMM14 |  0x20  | 0x0C | 0x2C |   14 |   26 | 0x0003000E | /sys-0/node-0/ponderosa-0/birchconn-3/birch-0/dimmconn-2/dimm-0
+                    DIMM15_Temp |     DIMM15 |  0x20  | 0x01 | 0x78 |   15 |   27 | 0x0003000F | /sys-0/node-0/ponderosa-0/birchconn-3/birch-0/dimmconn-3/dimm-0
+                    DIMM15_Func |     DIMM15 |  0x20  | 0x0C | 0x2D |   15 |   27 | 0x0003000F | /sys-0/node-0/ponderosa-0/birchconn-3/birch-0/dimmconn-3/dimm-0
+                   MEMBUF3_Temp |    MEMBUF3 |  0xD1  | 0x01 | 0x68 |    3 |    7 | 0x00040003 | /sys-0/node-0/ponderosa-0/birchconn-3/birch-0/membuf-0
+                   MEMBUF3_Func |    MEMBUF3 |  0xD1  | 0x0C | 0x59 |    3 |    7 | 0x00040003 | /sys-0/node-0/ponderosa-0/birchconn-3/birch-0/membuf-0
+                    DIMM16_Temp |     DIMM16 |  0x20  | 0x01 | 0x79 |   16 |   28 | 0x00030014 | /sys-0/node-0/ponderosa-0/birchconn-4/birch-0/dimmconn-0/dimm-0
+                    DIMM16_Func |     DIMM16 |  0x20  | 0x0C | 0x2E |   16 |   28 | 0x00030014 | /sys-0/node-0/ponderosa-0/birchconn-4/birch-0/dimmconn-0/dimm-0
+                    DIMM17_Temp |     DIMM17 |  0x20  | 0x01 | 0x7A |   17 |   29 | 0x00030015 | /sys-0/node-0/ponderosa-0/birchconn-4/birch-0/dimmconn-1/dimm-0
+                    DIMM17_Func |     DIMM17 |  0x20  | 0x0C | 0x2F |   17 |   29 | 0x00030015 | /sys-0/node-0/ponderosa-0/birchconn-4/birch-0/dimmconn-1/dimm-0
+                    DIMM18_Temp |     DIMM18 |  0x20  | 0x01 | 0x7B |   18 |   30 | 0x00030016 | /sys-0/node-0/ponderosa-0/birchconn-4/birch-0/dimmconn-2/dimm-0
+                    DIMM18_Func |     DIMM18 |  0x20  | 0x0C | 0x30 |   18 |   30 | 0x00030016 | /sys-0/node-0/ponderosa-0/birchconn-4/birch-0/dimmconn-2/dimm-0
+                    DIMM19_Temp |     DIMM19 |  0x20  | 0x01 | 0x7C |   19 |   31 | 0x00030017 | /sys-0/node-0/ponderosa-0/birchconn-4/birch-0/dimmconn-3/dimm-0
+                    DIMM19_Func |     DIMM19 |  0x20  | 0x0C | 0x31 |   19 |   31 | 0x00030017 | /sys-0/node-0/ponderosa-0/birchconn-4/birch-0/dimmconn-3/dimm-0
+                   MEMBUF4_Temp |    MEMBUF4 |  0xD1  | 0x01 | 0x69 |    4 |    8 | 0x00040005 | /sys-0/node-0/ponderosa-0/birchconn-4/birch-0/membuf-0
+                   MEMBUF4_Func |    MEMBUF4 |  0xD1  | 0x0C | 0x5A |    4 |    8 | 0x00040005 | /sys-0/node-0/ponderosa-0/birchconn-4/birch-0/membuf-0
+                    DIMM20_Temp |     DIMM20 |  0x20  | 0x01 | 0x7D |   20 |   32 | 0x00030010 | /sys-0/node-0/ponderosa-0/birchconn-5/birch-0/dimmconn-0/dimm-0
+                    DIMM20_Func |     DIMM20 |  0x20  | 0x0C | 0x32 |   20 |   32 | 0x00030010 | /sys-0/node-0/ponderosa-0/birchconn-5/birch-0/dimmconn-0/dimm-0
+                    DIMM21_Temp |     DIMM21 |  0x20  | 0x01 | 0x7E |   21 |   33 | 0x00030011 | /sys-0/node-0/ponderosa-0/birchconn-5/birch-0/dimmconn-1/dimm-0
+                    DIMM21_Func |     DIMM21 |  0x20  | 0x0C | 0x33 |   21 |   33 | 0x00030011 | /sys-0/node-0/ponderosa-0/birchconn-5/birch-0/dimmconn-1/dimm-0
+                    DIMM22_Temp |     DIMM22 |  0x20  | 0x01 | 0x7F |   22 |   34 | 0x00030012 | /sys-0/node-0/ponderosa-0/birchconn-5/birch-0/dimmconn-2/dimm-0
+                    DIMM22_Func |     DIMM22 |  0x20  | 0x0C | 0x34 |   22 |   34 | 0x00030012 | /sys-0/node-0/ponderosa-0/birchconn-5/birch-0/dimmconn-2/dimm-0
+                    DIMM23_Temp |     DIMM23 |  0x20  | 0x01 | 0x80 |   23 |   35 | 0x00030013 | /sys-0/node-0/ponderosa-0/birchconn-5/birch-0/dimmconn-3/dimm-0
+                    DIMM23_Func |     DIMM23 |  0x20  | 0x0C | 0x35 |   23 |   35 | 0x00030013 | /sys-0/node-0/ponderosa-0/birchconn-5/birch-0/dimmconn-3/dimm-0
+                   MEMBUF5_Temp |    MEMBUF5 |  0xD1  | 0x01 | 0x6A |    5 |    9 | 0x00040004 | /sys-0/node-0/ponderosa-0/birchconn-5/birch-0/membuf-0
+                   MEMBUF5_Func |    MEMBUF5 |  0xD1  | 0x0C | 0x5B |    5 |    9 | 0x00040004 | /sys-0/node-0/ponderosa-0/birchconn-5/birch-0/membuf-0
+                    DIMM24_Temp |     DIMM24 |  0x20  | 0x01 | 0x81 |   24 |   36 | 0x00030018 | /sys-0/node-0/ponderosa-0/birchconn-6/birch-0/dimmconn-0/dimm-0
+                    DIMM24_Func |     DIMM24 |  0x20  | 0x0C | 0x36 |   24 |   36 | 0x00030018 | /sys-0/node-0/ponderosa-0/birchconn-6/birch-0/dimmconn-0/dimm-0
+                    DIMM25_Temp |     DIMM25 |  0x20  | 0x01 | 0x82 |   25 |   37 | 0x00030019 | /sys-0/node-0/ponderosa-0/birchconn-6/birch-0/dimmconn-1/dimm-0
+                    DIMM25_Func |     DIMM25 |  0x20  | 0x0C | 0x37 |   25 |   37 | 0x00030019 | /sys-0/node-0/ponderosa-0/birchconn-6/birch-0/dimmconn-1/dimm-0
+                    DIMM26_Temp |     DIMM26 |  0x20  | 0x01 | 0x83 |   26 |   38 | 0x0003001A | /sys-0/node-0/ponderosa-0/birchconn-6/birch-0/dimmconn-2/dimm-0
+                    DIMM26_Func |     DIMM26 |  0x20  | 0x0C | 0x38 |   26 |   38 | 0x0003001A | /sys-0/node-0/ponderosa-0/birchconn-6/birch-0/dimmconn-2/dimm-0
+                    DIMM27_Temp |     DIMM27 |  0x20  | 0x01 | 0x84 |   27 |   39 | 0x0003001B | /sys-0/node-0/ponderosa-0/birchconn-6/birch-0/dimmconn-3/dimm-0
+                    DIMM27_Func |     DIMM27 |  0x20  | 0x0C | 0x39 |   27 |   39 | 0x0003001B | /sys-0/node-0/ponderosa-0/birchconn-6/birch-0/dimmconn-3/dimm-0
+                   MEMBUF6_Temp |    MEMBUF6 |  0xD1  | 0x01 | 0x6B |    6 |   10 | 0x00040006 | /sys-0/node-0/ponderosa-0/birchconn-6/birch-0/membuf-0
+                   MEMBUF6_Func |    MEMBUF6 |  0xD1  | 0x0C | 0x5C |    6 |   10 | 0x00040006 | /sys-0/node-0/ponderosa-0/birchconn-6/birch-0/membuf-0
+                    DIMM28_Temp |     DIMM28 |  0x20  | 0x01 | 0x85 |   28 |   40 | 0x0003001C | /sys-0/node-0/ponderosa-0/birchconn-7/birch-0/dimmconn-0/dimm-0
+                    DIMM28_Func |     DIMM28 |  0x20  | 0x0C | 0x3A |   28 |   40 | 0x0003001C | /sys-0/node-0/ponderosa-0/birchconn-7/birch-0/dimmconn-0/dimm-0
+                    DIMM29_Temp |     DIMM29 |  0x20  | 0x01 | 0x86 |   29 |   41 | 0x0003001D | /sys-0/node-0/ponderosa-0/birchconn-7/birch-0/dimmconn-1/dimm-0
+                    DIMM29_Func |     DIMM29 |  0x20  | 0x0C | 0x3B |   29 |   41 | 0x0003001D | /sys-0/node-0/ponderosa-0/birchconn-7/birch-0/dimmconn-1/dimm-0
+                    DIMM30_Temp |     DIMM30 |  0x20  | 0x01 | 0x87 |   30 |   42 | 0x0003001E | /sys-0/node-0/ponderosa-0/birchconn-7/birch-0/dimmconn-2/dimm-0
+                    DIMM30_Func |     DIMM30 |  0x20  | 0x0C | 0x3C |   30 |   42 | 0x0003001E | /sys-0/node-0/ponderosa-0/birchconn-7/birch-0/dimmconn-2/dimm-0
+                    DIMM31_Temp |     DIMM31 |  0x20  | 0x01 | 0x88 |   31 |   43 | 0x0003001F | /sys-0/node-0/ponderosa-0/birchconn-7/birch-0/dimmconn-3/dimm-0
+                    DIMM31_Func |     DIMM31 |  0x20  | 0x0C | 0x3D |   31 |   43 | 0x0003001F | /sys-0/node-0/ponderosa-0/birchconn-7/birch-0/dimmconn-3/dimm-0
+                   MEMBUF7_Temp |    MEMBUF7 |  0xD1  | 0x01 | 0x6C |    7 |   11 | 0x00040007 | /sys-0/node-0/ponderosa-0/birchconn-7/birch-0/membuf-0
+                   MEMBUF7_Func |    MEMBUF7 |  0xD1  | 0x0C | 0x5D |    7 |   11 | 0x00040007 | /sys-0/node-0/ponderosa-0/birchconn-7/birch-0/membuf-0
+                      CPU0_Temp |       CPU0 |  0x03  | 0x01 | 0x0B |    0 |    1 | 0x00050000 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc
+                      CPU0_Func |       CPU0 |  0x03  | 0x07 | 0x0C |    0 |    1 | 0x00050000 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc
+                     CORE0_Temp |      CORE0 |  0xD0  | 0x01 | 0x89 |    0 |    0 | 0x00070000 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-1/core-0
+                     CORE0_Func |      CORE0 |  0xD0  | 0x07 | 0x3E |    0 |    0 | 0x00070000 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-1/core-0
+                     CORE7_Temp |      CORE7 |  0xD0  | 0x01 | 0x90 |    7 |    0 | 0x00070007 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-10/core-0
+                     CORE7_Func |      CORE7 |  0xD0  | 0x07 | 0x45 |    7 |    0 | 0x00070007 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-10/core-0
+                     CORE8_Temp |      CORE8 |  0xD0  | 0x01 | 0x91 |    8 |    0 | 0x00070008 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-11/core-0
+                     CORE8_Func |      CORE8 |  0xD0  | 0x07 | 0x46 |    8 |    0 | 0x00070008 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-11/core-0
+                     CORE9_Temp |      CORE9 |  0xD0  | 0x01 | 0x92 |    9 |    0 | 0x00070009 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-12/core-0
+                     CORE9_Func |      CORE9 |  0xD0  | 0x07 | 0x47 |    9 |    0 | 0x00070009 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-12/core-0
+                    CORE10_Temp |     CORE10 |  0xD0  | 0x01 | 0x93 |   10 |    0 | 0x0007000A | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-13/core-0
+                    CORE10_Func |     CORE10 |  0xD0  | 0x07 | 0x48 |   10 |    0 | 0x0007000A | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-13/core-0
+                    CORE11_Temp |     CORE11 |  0xD0  | 0x01 | 0x94 |   11 |    0 | 0x0007000B | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-14/core-0
+                    CORE11_Func |     CORE11 |  0xD0  | 0x07 | 0x49 |   11 |    0 | 0x0007000B | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-14/core-0
+                     CORE1_Temp |      CORE1 |  0xD0  | 0x01 | 0x8A |    1 |    0 | 0x00070001 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-2/core-0
+                     CORE1_Func |      CORE1 |  0xD0  | 0x07 | 0x3F |    1 |    0 | 0x00070001 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-2/core-0
+                     CORE2_Temp |      CORE2 |  0xD0  | 0x01 | 0x8B |    2 |    0 | 0x00070002 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-3/core-0
+                     CORE2_Func |      CORE2 |  0xD0  | 0x07 | 0x40 |    2 |    0 | 0x00070002 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-3/core-0
+                     CORE3_Temp |      CORE3 |  0xD0  | 0x01 | 0x8C |    3 |    0 | 0x00070003 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-4/core-0
+                     CORE3_Func |      CORE3 |  0xD0  | 0x07 | 0x41 |    3 |    0 | 0x00070003 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-4/core-0
+                     CORE4_Temp |      CORE4 |  0xD0  | 0x01 | 0x8D |    4 |    0 | 0x00070004 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-5/core-0
+                     CORE4_Func |      CORE4 |  0xD0  | 0x07 | 0x42 |    4 |    0 | 0x00070004 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-5/core-0
+                     CORE5_Temp |      CORE5 |  0xD0  | 0x01 | 0x8E |    5 |    0 | 0x00070005 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-6/core-0
+                     CORE5_Func |      CORE5 |  0xD0  | 0x07 | 0x43 |    5 |    0 | 0x00070005 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-6/core-0
+                     CORE6_Temp |      CORE6 |  0xD0  | 0x01 | 0x8F |    6 |    0 | 0x00070006 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-9/core-0
+                     CORE6_Func |      CORE6 |  0xD0  | 0x07 | 0x44 |    6 |    0 | 0x00070006 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/ex-9/core-0
+         OCC0_OCC_Active_Sensor |       OCC0 |  0xD2  | 0x07 | 0x08 |    0 |    1 | 0x00130000 | /sys-0/node-0/ponderosa-0/proc_socket-0/module-0/proc/occ-0
+                      CPU1_Temp |       CPU1 |  0x03  | 0x01 | 0x0D |    1 |    2 | 0x00050001 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc
+                      CPU1_Func |       CPU1 |  0x03  | 0x07 | 0x0E |    1 |    2 | 0x00050001 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc
+                    CORE12_Temp |     CORE12 |  0xD0  | 0x01 | 0x95 |   12 |    0 | 0x0007000C | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-1/core-0
+                    CORE12_Func |     CORE12 |  0xD0  | 0x07 | 0x4A |   12 |    0 | 0x0007000C | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-1/core-0
+                    CORE19_Temp |     CORE19 |  0xD0  | 0x01 | 0x9C |   19 |    0 | 0x00070013 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-10/core-0
+                    CORE19_Func |     CORE19 |  0xD0  | 0x07 | 0x51 |   19 |    0 | 0x00070013 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-10/core-0
+                    CORE20_Temp |     CORE20 |  0xD0  | 0x01 | 0x9D |   20 |    0 | 0x00070014 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-11/core-0
+                    CORE20_Func |     CORE20 |  0xD0  | 0x07 | 0x52 |   20 |    0 | 0x00070014 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-11/core-0
+                    CORE21_Temp |     CORE21 |  0xD0  | 0x01 | 0x9E |   21 |    0 | 0x00070015 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-12/core-0
+                    CORE21_Func |     CORE21 |  0xD0  | 0x07 | 0x53 |   21 |    0 | 0x00070015 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-12/core-0
+                    CORE22_Temp |     CORE22 |  0xD0  | 0x01 | 0x9F |   22 |    0 | 0x00070016 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-13/core-0
+                    CORE22_Func |     CORE22 |  0xD0  | 0x07 | 0x54 |   22 |    0 | 0x00070016 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-13/core-0
+                    CORE23_Temp |     CORE23 |  0xD0  | 0x01 | 0xA0 |   23 |    0 | 0x00070017 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-14/core-0
+                    CORE23_Func |     CORE23 |  0xD0  | 0x07 | 0x55 |   23 |    0 | 0x00070017 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-14/core-0
+                    CORE13_Temp |     CORE13 |  0xD0  | 0x01 | 0x96 |   13 |    0 | 0x0007000D | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-2/core-0
+                    CORE13_Func |     CORE13 |  0xD0  | 0x07 | 0x4B |   13 |    0 | 0x0007000D | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-2/core-0
+                    CORE14_Temp |     CORE14 |  0xD0  | 0x01 | 0x97 |   14 |    0 | 0x0007000E | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-3/core-0
+                    CORE14_Func |     CORE14 |  0xD0  | 0x07 | 0x4C |   14 |    0 | 0x0007000E | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-3/core-0
+                    CORE15_Temp |     CORE15 |  0xD0  | 0x01 | 0x98 |   15 |    0 | 0x0007000F | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-4/core-0
+                    CORE15_Func |     CORE15 |  0xD0  | 0x07 | 0x4D |   15 |    0 | 0x0007000F | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-4/core-0
+                    CORE16_Temp |     CORE16 |  0xD0  | 0x01 | 0x99 |   16 |    0 | 0x00070010 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-5/core-0
+                    CORE16_Func |     CORE16 |  0xD0  | 0x07 | 0x4E |   16 |    0 | 0x00070010 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-5/core-0
+                    CORE17_Temp |     CORE17 |  0xD0  | 0x01 | 0x9A |   17 |    0 | 0x00070011 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-6/core-0
+                    CORE17_Func |     CORE17 |  0xD0  | 0x07 | 0x4F |   17 |    0 | 0x00070011 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-6/core-0
+                    CORE18_Temp |     CORE18 |  0xD0  | 0x01 | 0x9B |   18 |    0 | 0x00070012 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-9/core-0
+                    CORE18_Func |     CORE18 |  0xD0  | 0x07 | 0x50 |   18 |    0 | 0x00070012 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/ex-9/core-0
+         OCC1_OCC_Active_Sensor |       OCC1 |  0xD2  | 0x07 | 0x09 |    1 |    2 | 0x00130001 | /sys-0/node-0/ponderosa-0/proc_socket-1/module-1/proc/occ-0
