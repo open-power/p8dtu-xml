@@ -5489,7 +5489,7 @@
 	<hidden_child_id>dimm_freq_sensor</hidden_child_id>
 	<attribute>
 		<id>ALL_MCS_IN_INTERLEAVING_GROUP</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
         <id>MRW_MCS_PREFETCH_RETRY_THRESHOLD</id>
@@ -5684,7 +5684,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_MBA_CACHELINE_INTERLEAVE_MODE_CONTROL</id>
-		<default>2</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MRW_MEM_THROTTLE_DENOMINATOR</id>
@@ -7471,7 +7471,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_INTERLEAVE_ENABLE</id>
-		<default>0xE</default>
+		<default>0xF</default>
 	</attribute>
 	<attribute>
 		<id>PCI_BASE_ADDRS_32</id>
