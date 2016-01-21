@@ -5684,7 +5684,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_MBA_CACHELINE_INTERLEAVE_MODE_CONTROL</id>
-		<default>1</default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_MEM_THROTTLE_DENOMINATOR</id>
