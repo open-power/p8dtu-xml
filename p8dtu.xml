@@ -7471,7 +7471,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_INTERLEAVE_ENABLE</id>
-		<default>0xF</default>
+		<default>0x07</default>
 	</attribute>
 	<attribute>
 		<id>PCI_BASE_ADDRS_32</id>
