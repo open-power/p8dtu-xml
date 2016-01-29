@@ -5329,7 +5329,7 @@
 	</property>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x0A</value>
+	<value>0x09</value>
 	</property>
 </globalSetting>
 <globalSetting>
