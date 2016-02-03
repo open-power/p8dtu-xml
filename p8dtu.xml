@@ -5804,7 +5804,7 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_TURBO_MODE_SUPPORTED</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OPT_MEMMAP_GROUP_POLICY</id>
