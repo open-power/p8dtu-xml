@@ -2,122 +2,126 @@
 <enumerationType>
 	<id>ASSOCIATION_TYPE</id>
 		<enumerator>
-		<name>VPD</name>
-		<value>1</value>
+		<name>NA</name>
+		<value>0</value>
 		</enumerator>
 		<enumerator>
 		<name>FRU</name>
 		<value>2</value>
 		</enumerator>
 		<enumerator>
-		<name>NA</name>
-		<value>0</value>
+		<name>VPD</name>
+		<value>1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>BUS_TYPE</id>
 		<enumerator>
+		<name>ABUS</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
 		<name>XBUS</name>
 		<value>2</value>
-		</enumerator>
-		<enumerator>
-		<name>SC</name>
-		<value>14</value>
-		</enumerator>
-		<enumerator>
-		<name>SPCN</name>
-		<value>13</value>
-		</enumerator>
-		<enumerator>
-		<name>LOGICAL_ASSOCIATION</name>
-		<value>12</value>
-		</enumerator>
-		<enumerator>
-		<name>FSIM</name>
-		<value>4</value>
-		</enumerator>
-		<enumerator>
-		<name>DDR3</name>
-		<value>8</value>
 		</enumerator>
 		<enumerator>
 		<name>DMI</name>
 		<value>7</value>
 		</enumerator>
 		<enumerator>
-		<name>DDR4</name>
-		<value>9</value>
-		</enumerator>
-		<enumerator>
-		<name>ABUS</name>
-		<value>1</value>
+		<name>FSICM</name>
+		<value>11</value>
 		</enumerator>
 		<enumerator>
 		<name>POWER</name>
 		<value>10</value>
 		</enumerator>
 		<enumerator>
-		<name>U750</name>
-		<value>16</value>
+		<name>PCIE</name>
+		<value>3</value>
 		</enumerator>
 		<enumerator>
 		<name>GPIO</name>
 		<value>6</value>
 		</enumerator>
 		<enumerator>
+		<name>SPCN</name>
+		<value>13</value>
+		</enumerator>
+		<enumerator>
+		<name>FSIM</name>
+		<value>4</value>
+		</enumerator>
+		<enumerator>
+		<name>SC</name>
+		<value>14</value>
+		</enumerator>
+		<enumerator>
+		<name>LOGICAL_ASSOCIATION</name>
+		<value>12</value>
+		</enumerator>
+		<enumerator>
 		<name>JTAG</name>
 		<value>15</value>
-		</enumerator>
-		<enumerator>
-		<name>PCIE</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>FSICM</name>
-		<value>11</value>
 		</enumerator>
 		<enumerator>
 		<name>NA</name>
 		<value>0</value>
 		</enumerator>
 		<enumerator>
+		<name>U750</name>
+		<value>16</value>
+		</enumerator>
+		<enumerator>
 		<name>I2C</name>
 		<value>5</value>
+		</enumerator>
+		<enumerator>
+		<name>DDR4</name>
+		<value>9</value>
+		</enumerator>
+		<enumerator>
+		<name>DDR3</name>
+		<value>8</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>CDM_DOMAIN</id>
 		<enumerator>
+		<name>ALL</name>
+		<value>10</value>
+		</enumerator>
+		<enumerator>
 		<name>FSP</name>
 		<value>9</value>
 		</enumerator>
 		<enumerator>
-		<name>PSI</name>
-		<value>8</value>
+		<name>FABRIC</name>
+		<value>3</value>
+		</enumerator>
+		<enumerator>
+		<name>MEM</name>
+		<value>4</value>
 		</enumerator>
 		<enumerator>
 		<name>DIMM</name>
 		<value>2</value>
 		</enumerator>
 		<enumerator>
-		<name>NODE</name>
-		<value>6</value>
-		</enumerator>
-		<enumerator>
 		<name>IO</name>
 		<value>5</value>
 		</enumerator>
 		<enumerator>
+		<name>NODE</name>
+		<value>6</value>
+		</enumerator>
+		<enumerator>
+		<name>PSI</name>
+		<value>8</value>
+		</enumerator>
+		<enumerator>
 		<name>CPU</name>
 		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>ALL</name>
-		<value>10</value>
-		</enumerator>
-		<enumerator>
-		<name>FABRIC</name>
-		<value>3</value>
 		</enumerator>
 		<enumerator>
 		<name>NONE</name>
@@ -127,55 +131,51 @@
 		<name>CLOCK</name>
 		<value>7</value>
 		</enumerator>
-		<enumerator>
-		<name>MEM</name>
-		<value>4</value>
-		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>CDM_POLICIES</id>
 		<enumerator>
-		<name>PREDICTIVE_DISABLED</name>
-		<value>0x02</value>
-		</enumerator>
-		<enumerator>
 		<name>MANUFACTURING_DISABLED</name>
 		<value>0x01</value>
+		</enumerator>
+		<enumerator>
+		<name>PREDICTIVE_DISABLED</name>
+		<value>0x02</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>CLASS</id>
 		<enumerator>
-		<name>MAX</name>
-		<value>8</value>
-		</enumerator>
-		<enumerator>
-		<name>UNIT</name>
-		<value>4</value>
-		</enumerator>
-		<enumerator>
-		<name>LOGICAL_CARD</name>
-		<value>7</value>
-		</enumerator>
-		<enumerator>
-		<name>DEV</name>
-		<value>5</value>
+		<name>NA</name>
+		<value>0</value>
 		</enumerator>
 		<enumerator>
 		<name>CHIP</name>
 		<value>3</value>
 		</enumerator>
 		<enumerator>
-		<name>SYS</name>
-		<value>6</value>
+		<name>UNIT</name>
+		<value>4</value>
+		</enumerator>
+		<enumerator>
+		<name>DEV</name>
+		<value>5</value>
+		</enumerator>
+		<enumerator>
+		<name>MAX</name>
+		<value>8</value>
+		</enumerator>
+		<enumerator>
+		<name>LOGICAL_CARD</name>
+		<value>7</value>
 		</enumerator>
 		<enumerator>
 		<name>ENC</name>
 		<value>2</value>
 		</enumerator>
 		<enumerator>
-		<name>NA</name>
-		<value>0</value>
+		<name>SYS</name>
+		<value>6</value>
 		</enumerator>
 		<enumerator>
 		<name>CARD</name>
@@ -185,16 +185,16 @@
 <enumerationType>
 	<id>DIRECTION</id>
 		<enumerator>
+		<name>INOUT</name>
+		<value>2</value>
+		</enumerator>
+		<enumerator>
 		<name>IN</name>
 		<value>0</value>
 		</enumerator>
 		<enumerator>
 		<name>OUT</name>
 		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>INOUT</name>
-		<value>2</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -215,22 +215,6 @@
 <enumerationType>
 	<id>ENTITY_ID</id>
 		<enumerator>
-		<name>TOD_CLOCK</name>
-		<value>0xD6</value>
-		</enumerator>
-		<enumerator>
-		<name>OTHER</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>CHASSIS</name>
-		<value>0x17</value>
-		</enumerator>
-		<enumerator>
-		<name>OS</name>
-		<value>0x23</value>
-		</enumerator>
-		<enumerator>
 		<name>CORE</name>
 		<value>0xD0</value>
 		</enumerator>
@@ -239,48 +223,68 @@
 		<value>0xD4</value>
 		</enumerator>
 		<enumerator>
+		<name>OS</name>
+		<value>0x23</value>
+		</enumerator>
+		<enumerator>
 		<name>PROCESSOR</name>
 		<value>0x03</value>
-		</enumerator>
-		<enumerator>
-		<name>OCC</name>
-		<value>0xD2</value>
-		</enumerator>
-		<enumerator>
-		<name>APSS</name>
-		<value>0xD7</value>
 		</enumerator>
 		<enumerator>
 		<name>SYSTEM_BOARD</name>
 		<value>0x07</value>
 		</enumerator>
 		<enumerator>
-		<name>BIOS</name>
-		<value>0x22</value>
-		</enumerator>
-		<enumerator>
-		<name>PCI_CLOCK</name>
-		<value>0xD5</value>
-		</enumerator>
-		<enumerator>
-		<name>NA</name>
-		<value>0</value>
+		<name>POWER_MGMT</name>
+		<value>0x15</value>
 		</enumerator>
 		<enumerator>
 		<name>MEMBUF</name>
 		<value>0xD1</value>
 		</enumerator>
 		<enumerator>
-		<name>POWER_MGMT</name>
-		<value>0x15</value>
+		<name>PCI_CLOCK</name>
+		<value>0xD5</value>
+		</enumerator>
+		<enumerator>
+		<name>OCC</name>
+		<value>0xD2</value>
+		</enumerator>
+		<enumerator>
+		<name>OTHER</name>
+		<value>0x01</value>
+		</enumerator>
+		<enumerator>
+		<name>TOD_CLOCK</name>
+		<value>0xD6</value>
+		</enumerator>
+		<enumerator>
+		<name>APSS</name>
+		<value>0xD7</value>
+		</enumerator>
+		<enumerator>
+		<name>NA</name>
+		<value>0</value>
 		</enumerator>
 		<enumerator>
 		<name>MEMORY_DEVICE</name>
 		<value>0x20</value>
 		</enumerator>
+		<enumerator>
+		<name>BIOS</name>
+		<value>0x22</value>
+		</enumerator>
+		<enumerator>
+		<name>CHASSIS</name>
+		<value>0x17</value>
+		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>FSI_MASTER_TYPE</id>
+		<enumerator>
+		<name>CMFSI</name>
+		<value>1</value>
+		</enumerator>
 		<enumerator>
 		<name>NO_MASTER</name>
 		<value>2</value>
@@ -289,13 +293,17 @@
 		<name>MFSI</name>
 		<value>0</value>
 		</enumerator>
-		<enumerator>
-		<name>CMFSI</name>
-		<value>1</value>
-		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>GPIO_TYPE</id>
+		<enumerator>
+		<name>PGOOD</name>
+		<value>2</value>
+		</enumerator>
+		<enumerator>
+		<name>GENERIC_INPUT</name>
+		<value>0</value>
+		</enumerator>
 		<enumerator>
 		<name>ENABLE</name>
 		<value>3</value>
@@ -304,17 +312,13 @@
 		<name>GENERIC_OUTPUT</name>
 		<value>1</value>
 		</enumerator>
-		<enumerator>
-		<name>GENERIC_INPUT</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>PGOOD</name>
-		<value>2</value>
-		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>HIDDEN_ERRLOGS_ENABLE</id>
+		<enumerator>
+		<name>NO_HIDDEN_LOGS</name>
+		<value>0</value>
+		</enumerator>
 		<enumerator>
 		<name>ALLOW_RECOVERED</name>
 		<value>2</value>
@@ -327,17 +331,9 @@
 		<name>ALLOW_INFORMATIONAL</name>
 		<value>1</value>
 		</enumerator>
-		<enumerator>
-		<name>NO_HIDDEN_LOGS</name>
-		<value>0</value>
-		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>HWAS_CHANGED_BIT</id>
-		<enumerator>
-		<name>MEMDIAG</name>
-		<value>0x00000002</value>
-		</enumerator>
 		<enumerator>
 		<name>HOSTSVC_HBEL</name>
 		<value>0x00000008</value>
@@ -347,27 +343,39 @@
 		<value>0x00000004</value>
 		</enumerator>
 		<enumerator>
-		<name>DIAG_MASK</name>
-		<value>0x00000006</value>
+		<name>MEMDIAG</name>
+		<value>0x00000002</value>
 		</enumerator>
 		<enumerator>
 		<name>GARD</name>
 		<value>0x00000001</value>
 		</enumerator>
+		<enumerator>
+		<name>DIAG_MASK</name>
+		<value>0x00000006</value>
+		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>IPMI_SENSOR_ARRAY</id>
 		<enumerator>
-		<name>NUMBER_OFFSET</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
 		<name>NAME_OFFSET</name>
 		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>NUMBER_OFFSET</name>
+		<value>0x01</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>LED_COLOR</id>
+		<enumerator>
+		<name>RED</name>
+		<value>2</value>
+		</enumerator>
+		<enumerator>
+		<name>AMBER</name>
+		<value>1</value>
+		</enumerator>
 		<enumerator>
 		<name>BLUE</name>
 		<value>2</value>
@@ -376,64 +384,28 @@
 		<name>GREEN</name>
 		<value>0</value>
 		</enumerator>
-		<enumerator>
-		<name>AMBER</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>RED</name>
-		<value>2</value>
-		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>MNFG_FLAG</id>
 		<enumerator>
-		<name>ENABLE_MINIMUM_PATTERN_TEST</name>
-		<value>0x00000400</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE_EXHAUSTIVE_PATTERN_TEST</name>
-		<value>0x00000100</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE_STANDARD_PATTERN_TEST</name>
-		<value>0x00000200</value>
-		</enumerator>
-		<enumerator>
-		<name>PSI_DIAGNOSTIC</name>
-		<value>0x00008000</value>
-		</enumerator>
-		<enumerator>
-		<name>DISABLE_DRAM_REPAIRS</name>
-		<value>0x00000080</value>
-		</enumerator>
-		<enumerator>
-		<name>UPDATE_BOTH_SIDES_OF_SBE</name>
-		<value>0x00040000</value>
-		</enumerator>
-		<enumerator>
-		<name>AVP_ENABLE</name>
-		<value>0x00000002</value>
-		</enumerator>
-		<enumerator>
-		<name>TEST_DRAM_REPAIRS</name>
-		<value>0x00000040</value>
-		</enumerator>
-		<enumerator>
-		<name>BRAZOS_WRAP_CONFIG</name>
-		<value>0x00010000</value>
-		</enumerator>
-		<enumerator>
 		<name>FAST_BACKGROUND_SCRUB</name>
 		<value>0x00000020</value>
+		</enumerator>
+		<enumerator>
+		<name>DISABLE_MEMORY_eREPAIR</name>
+		<value>0x00001000</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLE_MINIMUM_PATTERN_TEST</name>
+		<value>0x00000400</value>
 		</enumerator>
 		<enumerator>
 		<name>THRESHOLDS</name>
 		<value>0x00000001</value>
 		</enumerator>
 		<enumerator>
-		<name>DISABLE_MEMORY_eREPAIR</name>
-		<value>0x00001000</value>
+		<name>BRAZOS_WRAP_CONFIG</name>
+		<value>0x00010000</value>
 		</enumerator>
 		<enumerator>
 		<name>SRC_TERM</name>
@@ -444,12 +416,16 @@
 		<value>0x00000004</value>
 		</enumerator>
 		<enumerator>
-		<name>FSP_UPDATE_SBE_IMAGE</name>
-		<value>0x00020000</value>
+		<name>DISABLE_FABRIC_eREPAIR</name>
+		<value>0x00000800</value>
 		</enumerator>
 		<enumerator>
 		<name>DMI_DEPLOY_LANE_SPARES</name>
 		<value>0x00004000</value>
+		</enumerator>
+		<enumerator>
+		<name>FSP_UPDATE_SBE_IMAGE</name>
+		<value>0x00020000</value>
 		</enumerator>
 		<enumerator>
 		<name>IPL_MEMORY_CE_CHECKING</name>
@@ -460,8 +436,32 @@
 		<value>0x00002000</value>
 		</enumerator>
 		<enumerator>
-		<name>DISABLE_FABRIC_eREPAIR</name>
-		<value>0x00000800</value>
+		<name>ENABLE_STANDARD_PATTERN_TEST</name>
+		<value>0x00000200</value>
+		</enumerator>
+		<enumerator>
+		<name>PSI_DIAGNOSTIC</name>
+		<value>0x00008000</value>
+		</enumerator>
+		<enumerator>
+		<name>TEST_DRAM_REPAIRS</name>
+		<value>0x00000040</value>
+		</enumerator>
+		<enumerator>
+		<name>UPDATE_BOTH_SIDES_OF_SBE</name>
+		<value>0x00040000</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLE_EXHAUSTIVE_PATTERN_TEST</name>
+		<value>0x00000100</value>
+		</enumerator>
+		<enumerator>
+		<name>DISABLE_DRAM_REPAIRS</name>
+		<value>0x00000080</value>
+		</enumerator>
+		<enumerator>
+		<name>AVP_ENABLE</name>
+		<value>0x00000002</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -471,11 +471,23 @@
 		<value></value>
 		</enumerator>
 		<enumerator>
-		<name>CDIMM</name>
-		<value></value>
+		<name>NA</name>
+		<value>0</value>
 		</enumerator>
 		<enumerator>
-		<name>VENICE</name>
+		<name>CENTAUR</name>
+		<value>48</value>
+		</enumerator>
+		<enumerator>
+		<name>JEDEC</name>
+		<value>80</value>
+		</enumerator>
+		<enumerator>
+		<name>POWER8</name>
+		<value>112</value>
+		</enumerator>
+		<enumerator>
+		<name>CDIMM</name>
 		<value></value>
 		</enumerator>
 		<enumerator>
@@ -483,31 +495,31 @@
 		<value>16</value>
 		</enumerator>
 		<enumerator>
-		<name>POWER8</name>
-		<value>112</value>
-		</enumerator>
-		<enumerator>
-		<name>JEDEC</name>
-		<value>80</value>
-		</enumerator>
-		<enumerator>
-		<name>NA</name>
-		<value>0</value>
+		<name>VENICE</name>
+		<value></value>
 		</enumerator>
 		<enumerator>
 		<name>NAPLES</name>
 		<value></value>
 		</enumerator>
-		<enumerator>
-		<name>CENTAUR</name>
-		<value>48</value>
-		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>MRU_PREFIX</id>
 		<enumerator>
-		<name>XBUS</name>
-		<value>0x0302</value>
+		<name>CORE</name>
+		<value>0x0203</value>
+		</enumerator>
+		<enumerator>
+		<name>NCU</name>
+		<value>0x0206</value>
+		</enumerator>
+		<enumerator>
+		<name>CAPP</name>
+		<value>0x0209</value>
+		</enumerator>
+		<enumerator>
+		<name>BUILTIN-IO</name>
+		<value>0x000B</value>
 		</enumerator>
 		<enumerator>
 		<name>FLASH-CHIP</name>
@@ -518,52 +530,40 @@
 		<value>0x0208</value>
 		</enumerator>
 		<enumerator>
-		<name>PCI</name>
-		<value>0x0303</value>
-		</enumerator>
-		<enumerator>
-		<name>SBE</name>
-		<value>0x020C</value>
-		</enumerator>
-		<enumerator>
 		<name>DPSS</name>
 		<value>0x000F</value>
-		</enumerator>
-		<enumerator>
-		<name>CORE</name>
-		<value>0x0203</value>
-		</enumerator>
-		<enumerator>
-		<name>OCC</name>
-		<value>0x0201</value>
-		</enumerator>
-		<enumerator>
-		<name>APSS</name>
-		<value>0x000E</value>
-		</enumerator>
-		<enumerator>
-		<name>MODULE</name>
-		<value>0x0100</value>
-		</enumerator>
-		<enumerator>
-		<name>SLW</name>
-		<value>0x020A</value>
 		</enumerator>
 		<enumerator>
 		<name>MBA</name>
 		<value>0x020E</value>
 		</enumerator>
 		<enumerator>
-		<name>NCU</name>
-		<value>0x0206</value>
+		<name>APSS</name>
+		<value>0x000E</value>
 		</enumerator>
 		<enumerator>
-		<name>VRM-CARD</name>
-		<value>0x0104</value>
+		<name>SP-IOU-CHIP</name>
+		<value>0x000A</value>
 		</enumerator>
 		<enumerator>
-		<name>AS</name>
-		<value>0x020B</value>
+		<name>RISER-CARD</name>
+		<value>0x0101</value>
+		</enumerator>
+		<enumerator>
+		<name>SBE</name>
+		<value>0x020C</value>
+		</enumerator>
+		<enumerator>
+		<name>SLW</name>
+		<value>0x020A</value>
+		</enumerator>
+		<enumerator>
+		<name>ABUS</name>
+		<value>0x0301</value>
+		</enumerator>
+		<enumerator>
+		<name>XBUS</name>
+		<value>0x0302</value>
 		</enumerator>
 		<enumerator>
 		<name>L2</name>
@@ -574,56 +574,56 @@
 		<value>0x0205</value>
 		</enumerator>
 		<enumerator>
-		<name>SP-CHIP</name>
-		<value>0x0009</value>
-		</enumerator>
-		<enumerator>
-		<name>UNKNOWN</name>
-		<value>0xFFFF</value>
-		</enumerator>
-		<enumerator>
-		<name>CARD-ASM</name>
-		<value>0x0103</value>
-		</enumerator>
-		<enumerator>
-		<name>EX</name>
-		<value>0x0202</value>
-		</enumerator>
-		<enumerator>
-		<name>MCS</name>
-		<value>0x0207</value>
-		</enumerator>
-		<enumerator>
 		<name>L4</name>
 		<value>0x020D</value>
-		</enumerator>
-		<enumerator>
-		<name>BUILTIN-IO</name>
-		<value>0x000B</value>
-		</enumerator>
-		<enumerator>
-		<name>PROC</name>
-		<value>0x0001</value>
-		</enumerator>
-		<enumerator>
-		<name>ABUS</name>
-		<value>0x0301</value>
-		</enumerator>
-		<enumerator>
-		<name>SP-IOU-CHIP</name>
-		<value>0x000A</value>
 		</enumerator>
 		<enumerator>
 		<name>MEMBUF</name>
 		<value>0x0006</value>
 		</enumerator>
 		<enumerator>
-		<name>CAPP</name>
-		<value>0x0209</value>
+		<name>VRM-CARD</name>
+		<value>0x0104</value>
 		</enumerator>
 		<enumerator>
-		<name>RISER-CARD</name>
-		<value>0x0101</value>
+		<name>OCC</name>
+		<value>0x0201</value>
+		</enumerator>
+		<enumerator>
+		<name>MODULE</name>
+		<value>0x0100</value>
+		</enumerator>
+		<enumerator>
+		<name>AS</name>
+		<value>0x020B</value>
+		</enumerator>
+		<enumerator>
+		<name>PROC</name>
+		<value>0x0001</value>
+		</enumerator>
+		<enumerator>
+		<name>EX</name>
+		<value>0x0202</value>
+		</enumerator>
+		<enumerator>
+		<name>PCI</name>
+		<value>0x0303</value>
+		</enumerator>
+		<enumerator>
+		<name>CARD-ASM</name>
+		<value>0x0103</value>
+		</enumerator>
+		<enumerator>
+		<name>UNKNOWN</name>
+		<value>0xFFFF</value>
+		</enumerator>
+		<enumerator>
+		<name>MCS</name>
+		<value>0x0207</value>
+		</enumerator>
+		<enumerator>
+		<name>SP-CHIP</name>
+		<value>0x0009</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -633,27 +633,27 @@
 		<value>1</value>
 		</enumerator>
 		<enumerator>
-		<name>2000_MHZ_OR_2400_MHZ</name>
-		<value>3</value>
+		<name>2400_MHZ</name>
+		<value>2</value>
 		</enumerator>
 		<enumerator>
 		<name>UNSUPPORTED_FREQ</name>
 		<value>0</value>
 		</enumerator>
 		<enumerator>
-		<name>2400_MHZ</name>
-		<value>2</value>
+		<name>2000_MHZ_OR_2400_MHZ</name>
+		<value>3</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>MRW_POWER_CONTROL_REQUESTED</id>
 		<enumerator>
-		<name>FASTEXIT_AND_SLOWEXIT</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
 		<name>FASTEXIT</name>
 		<value>2</value>
+		</enumerator>
+		<enumerator>
+		<name>FASTEXIT_AND_SLOWEXIT</name>
+		<value>3</value>
 		</enumerator>
 		<enumerator>
 		<name>SLOWEXIT</name>
@@ -671,52 +671,52 @@
 		<value>9</value>
 		</enumerator>
 		<enumerator>
-		<name>GPIO_EXPANDER</name>
-		<value>3</value>
+		<name>IOMUX_GROUP</name>
+		<value>10</value>
 		</enumerator>
 		<enumerator>
-		<name>IPMI_SENSOR</name>
-		<value>12</value>
+		<name>GPIO_EXPANDER</name>
+		<value>3</value>
 		</enumerator>
 		<enumerator>
 		<name>SPD</name>
 		<value>5</value>
 		</enumerator>
 		<enumerator>
-		<name>FSIM</name>
-		<value>7</value>
+		<name>FSICM</name>
+		<value>6</value>
 		</enumerator>
 		<enumerator>
-		<name>VPD</name>
-		<value>1</value>
+		<name>PCI_CONFIGS</name>
+		<value>8</value>
 		</enumerator>
 		<enumerator>
 		<name>LED</name>
 		<value>11</value>
 		</enumerator>
 		<enumerator>
-		<name>APSS_SENSOR</name>
-		<value>13</value>
+		<name>VPD</name>
+		<value>1</value>
 		</enumerator>
 		<enumerator>
-		<name>IOMUX_GROUP</name>
-		<value>10</value>
+		<name>IPMI_SENSOR</name>
+		<value>12</value>
 		</enumerator>
 		<enumerator>
-		<name>VOLTAGE_REGULATOR</name>
-		<value>4</value>
-		</enumerator>
-		<enumerator>
-		<name>FSICM</name>
-		<value>6</value>
+		<name>FSIM</name>
+		<value>7</value>
 		</enumerator>
 		<enumerator>
 		<name>NA</name>
 		<value>0</value>
 		</enumerator>
 		<enumerator>
-		<name>PCI_CONFIGS</name>
-		<value>8</value>
+		<name>APSS_SENSOR</name>
+		<value>13</value>
+		</enumerator>
+		<enumerator>
+		<name>VOLTAGE_REGULATOR</name>
+		<value>4</value>
 		</enumerator>
 		<enumerator>
 		<name>PCI_CONFIG</name>
@@ -726,63 +726,79 @@
 <enumerationType>
 	<id>MULTI_SCOM_BUFFER_MAX_SIZE_BIT</id>
 		<enumerator>
-		<name>MULTI_SCOM_BUFFER_SIZE_256KB</name>
-		<value>0x00040000</value>
-		</enumerator>
-		<enumerator>
-		<name>MULTI_SCOM_BUFFER_SIZE_128KB</name>
-		<value>0x00020000</value>
-		</enumerator>
-		<enumerator>
-		<name>MULTI_SCOM_BUFFER_SIZE_1KB</name>
-		<value>0x00000400</value>
-		</enumerator>
-		<enumerator>
-		<name>MULTI_SCOM_BUFFER_SIZE_8KB</name>
-		<value>0x00002000</value>
-		</enumerator>
-		<enumerator>
-		<name>MULTI_SCOM_BUFFER_SIZE_16KB</name>
-		<value>0x00004000</value>
-		</enumerator>
-		<enumerator>
-		<name>MULTI_SCOM_BUFFER_SIZE_2KB</name>
-		<value>0x00000800</value>
+		<name>MULTI_SCOM_BUFFER_SIZE_32KB</name>
+		<value>0x00008000</value>
 		</enumerator>
 		<enumerator>
 		<name>MULTI_SCOM_BUFFER_SIZE_1MB</name>
 		<value>0x00100000</value>
 		</enumerator>
 		<enumerator>
+		<name>MULTI_SCOM_BUFFER_SIZE_16KB</name>
+		<value>0x00004000</value>
+		</enumerator>
+		<enumerator>
 		<name>MULTI_SCOM_BUFFER_SIZE_512KB</name>
 		<value>0x00080000</value>
+		</enumerator>
+		<enumerator>
+		<name>MULTI_SCOM_BUFFER_SIZE_1KB</name>
+		<value>0x00000400</value>
+		</enumerator>
+		<enumerator>
+		<name>MULTI_SCOM_BUFFER_SIZE_2KB</name>
+		<value>0x00000800</value>
+		</enumerator>
+		<enumerator>
+		<name>MULTI_SCOM_BUFFER_SIZE_4KB</name>
+		<value>0x00001000</value>
 		</enumerator>
 		<enumerator>
 		<name>MULTI_SCOM_BUFFER_SIZE_64KB</name>
 		<value>0x00010000</value>
 		</enumerator>
 		<enumerator>
-		<name>MULTI_SCOM_BUFFER_SIZE_32KB</name>
-		<value>0x00008000</value>
+		<name>MULTI_SCOM_BUFFER_SIZE_128KB</name>
+		<value>0x00020000</value>
 		</enumerator>
 		<enumerator>
-		<name>MULTI_SCOM_BUFFER_SIZE_4KB</name>
-		<value>0x00001000</value>
+		<name>MULTI_SCOM_BUFFER_SIZE_8KB</name>
+		<value>0x00002000</value>
+		</enumerator>
+		<enumerator>
+		<name>MULTI_SCOM_BUFFER_SIZE_256KB</name>
+		<value>0x00040000</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>NPU_MMIO_BAR_ENABLE</id>
 		<enumerator>
-		<name>ENABLE</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
 		<name>DISABLE</name>
 		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLE</name>
+		<value>1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>NPU_MMIO_BAR_SIZE</id>
+		<enumerator>
+		<name>1_MB</name>
+		<value>0x0000000000100000</value>
+		</enumerator>
+		<enumerator>
+		<name>256_KB</name>
+		<value>0x0000000000040000</value>
+		</enumerator>
+		<enumerator>
+		<name>128_KB</name>
+		<value>0x0000000000020000</value>
+		</enumerator>
+		<enumerator>
+		<name>2_MB</name>
+		<value>0x0000000000200000</value>
+		</enumerator>
 		<enumerator>
 		<name>64_KB</name>
 		<value>0x0000000000010000</value>
@@ -791,25 +807,13 @@
 		<name>512_KB</name>
 		<value>0x0000000000080000</value>
 		</enumerator>
-		<enumerator>
-		<name>1_MB</name>
-		<value>0x0000000000100000</value>
-		</enumerator>
-		<enumerator>
-		<name>2_MB</name>
-		<value>0x0000000000200000</value>
-		</enumerator>
-		<enumerator>
-		<name>128_KB</name>
-		<value>0x0000000000020000</value>
-		</enumerator>
-		<enumerator>
-		<name>256_KB</name>
-		<value>0x0000000000040000</value>
-		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>PAYLOAD_KIND</id>
+		<enumerator>
+		<name>SAPPHIRE</name>
+		<value>2</value>
+		</enumerator>
 		<enumerator>
 		<name>PHYP</name>
 		<value>1</value>
@@ -821,10 +825,6 @@
 		<enumerator>
 		<name>NONE</name>
 		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>SAPPHIRE</name>
-		<value>2</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -841,12 +841,12 @@
 <enumerationType>
 	<id>PROC_FABRIC_PUMP_MODE</id>
 		<enumerator>
-		<name>MODE2</name>
-		<value>2</value>
-		</enumerator>
-		<enumerator>
 		<name>MODE1</name>
 		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>MODE2</name>
+		<value>2</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -856,23 +856,23 @@
 		<value>0</value>
 		</enumerator>
 		<enumerator>
-		<name>NOT_MASTER</name>
-		<value>2</value>
-		</enumerator>
-		<enumerator>
 		<name>MASTER_CANDIDATE</name>
 		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>NOT_MASTER</name>
+		<value>2</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>PROC_PBIEX_ASYNC_SEL</id>
 		<enumerator>
-		<name>SEL1</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
 		<name>SEL0</name>
 		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>SEL1</name>
+		<value>1</value>
 		</enumerator>
 		<enumerator>
 		<name>SEL2</name>
@@ -926,12 +926,12 @@
 <enumerationType>
 	<id>RAIL_NAME</id>
 		<enumerator>
-		<name>VDD</name>
-		<value>2</value>
-		</enumerator>
-		<enumerator>
 		<name>VDDR</name>
 		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>VDD</name>
+		<value>2</value>
 		</enumerator>
 		<enumerator>
 		<name>UNKNOWN</name>
@@ -941,35 +941,71 @@
 <enumerationType>
 	<id>RECONFIGURE_LOOP</id>
 		<enumerator>
-		<name>BAD_DQ_BIT_SET</name>
-		<value>0x02</value>
-		</enumerator>
-		<enumerator>
 		<name>DECONFIGURE</name>
 		<value>0x01</value>
+		</enumerator>
+		<enumerator>
+		<name>BAD_DQ_BIT_SET</name>
+		<value>0x02</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>SENSOR_NAME</id>
 		<enumerator>
-		<name>PCI_ACTIVE</name>
-		<value>0xC423</value>
+		<name>REDUNDANT_PS_POLICY</name>
+		<value>0xCA22</value>
 		</enumerator>
 		<enumerator>
-		<name>STATE</name>
-		<value>0x0500</value>
+		<name>DIMM_STATE</name>
+		<value>0x0C20</value>
 		</enumerator>
 		<enumerator>
 		<name>DIMM_TEMP</name>
 		<value>0x0120</value>
 		</enumerator>
 		<enumerator>
-		<name>CORE_FREQ</name>
-		<value>0xC1D0</value>
+		<name>REBOOT_COUNT</name>
+		<value>0xC322</value>
 		</enumerator>
 		<enumerator>
-		<name>FAULT</name>
-		<value>0xC700</value>
+		<name>STATE</name>
+		<value>0x0500</value>
+		</enumerator>
+		<enumerator>
+		<name>MEMBUF_TEMP</name>
+		<value>0x01D1</value>
+		</enumerator>
+		<enumerator>
+		<name>SYSTEM_EVENT</name>
+		<value>0x1201</value>
+		</enumerator>
+		<enumerator>
+		<name>APSS_CHANNEL</name>
+		<value>0xC2D7</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE_STATE</name>
+		<value>0x07D0</value>
+		</enumerator>
+		<enumerator>
+		<name>FW_BOOT_PROGRESS</name>
+		<value>0x0F22</value>
+		</enumerator>
+		<enumerator>
+		<name>PCI_CLOCK_FAULT</name>
+		<value>0xC7D5</value>
+		</enumerator>
+		<enumerator>
+		<name>DERATING_FACTOR</name>
+		<value>0xC815</value>
+		</enumerator>
+		<enumerator>
+		<name>APSS_FAULT</name>
+		<value>0xC7D7</value>
+		</enumerator>
+		<enumerator>
+		<name>PROC_TEMP</name>
+		<value>0x0103</value>
 		</enumerator>
 		<enumerator>
 		<name>OCC_ACTIVE</name>
@@ -980,80 +1016,44 @@
 		<value>0xC707</value>
 		</enumerator>
 		<enumerator>
-		<name>APSS_FAULT</name>
-		<value>0xC7D7</value>
-		</enumerator>
-		<enumerator>
-		<name>FW_BOOT_PROGRESS</name>
-		<value>0x0F22</value>
-		</enumerator>
-		<enumerator>
-		<name>CORE_STATE</name>
-		<value>0x07D0</value>
-		</enumerator>
-		<enumerator>
-		<name>PROC_TEMP</name>
-		<value>0x0103</value>
-		</enumerator>
-		<enumerator>
-		<name>REBOOT_COUNT</name>
-		<value>0xC322</value>
-		</enumerator>
-		<enumerator>
-		<name>MEMBUF_STATE</name>
-		<value>0x0CD1</value>
-		</enumerator>
-		<enumerator>
-		<name>PCI_CLOCK_FAULT</name>
-		<value>0xC7D5</value>
-		</enumerator>
-		<enumerator>
-		<name>MEMBUF_TEMP</name>
-		<value>0x01D1</value>
-		</enumerator>
-		<enumerator>
-		<name>PROC_STATE</name>
-		<value>0x0703</value>
-		</enumerator>
-		<enumerator>
-		<name>HOST_STATUS</name>
-		<value>0x2223</value>
-		</enumerator>
-		<enumerator>
 		<name>OS_BOOT</name>
 		<value>0x1F23</value>
 		</enumerator>
 		<enumerator>
-		<name>APSS_CHANNEL</name>
-		<value>0xC2D7</value>
-		</enumerator>
-		<enumerator>
-		<name>CORE_TEMP</name>
-		<value>0x01D0</value>
-		</enumerator>
-		<enumerator>
-		<name>SYSTEM_EVENT</name>
-		<value>0x1201</value>
+		<name>CORE_FREQ</name>
+		<value>0xC1D0</value>
 		</enumerator>
 		<enumerator>
 		<name>REF_CLOCK_FAULT</name>
 		<value>0xC7D4</value>
 		</enumerator>
 		<enumerator>
-		<name>DIMM_STATE</name>
-		<value>0x0C20</value>
+		<name>MEMBUF_STATE</name>
+		<value>0x0CD1</value>
 		</enumerator>
 		<enumerator>
-		<name>REDUNDANT_PS_POLICY</name>
-		<value>0xCA22</value>
+		<name>PCI_ACTIVE</name>
+		<value>0xC423</value>
 		</enumerator>
 		<enumerator>
-		<name>DERATING_FACTOR</name>
-		<value>0xC815</value>
+		<name>CORE_TEMP</name>
+		<value>0x01D0</value>
 		</enumerator>
 		<enumerator>
 		<name>TOD_CLOCK_FAULT</name>
 		<value>0xC7D6</value>
+		</enumerator>
+		<enumerator>
+		<name>HOST_STATUS</name>
+		<value>0x2223</value>
+		</enumerator>
+		<enumerator>
+		<name>PROC_STATE</name>
+		<value>0x0703</value>
+		</enumerator>
+		<enumerator>
+		<name>FAULT</name>
+		<value>0xC700</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -1063,67 +1063,67 @@
 		<value>0x07</value>
 		</enumerator>
 		<enumerator>
-		<name>PWR_LIMIT_ACTIVE</name>
-		<value>0xC4</value>
-		</enumerator>
-		<enumerator>
-		<name>POWER</name>
-		<value>0xC2</value>
+		<name>OS_BOOT</name>
+		<value>0x1F</value>
 		</enumerator>
 		<enumerator>
 		<name>BOOT_COUNT</name>
 		<value>0xC3</value>
 		</enumerator>
 		<enumerator>
-		<name>PCI_LINK_PRES</name>
-		<value>0xC4</value>
-		</enumerator>
-		<enumerator>
-		<name>FREQ</name>
-		<value>0xC1</value>
-		</enumerator>
-		<enumerator>
-		<name>APCI_POWER_STATE</name>
-		<value>0x22</value>
-		</enumerator>
-		<enumerator>
-		<name>MEMORY</name>
-		<value>0x0c</value>
-		</enumerator>
-		<enumerator>
-		<name>FAULT</name>
-		<value>0xC7</value>
-		</enumerator>
-		<enumerator>
 		<name>SYS_EVENT</name>
 		<value>0x12</value>
 		</enumerator>
 		<enumerator>
-		<name>NA</name>
-		<value>0</value>
+		<name>POWER</name>
+		<value>0xC2</value>
+		</enumerator>
+		<enumerator>
+		<name>PWR_LIMIT_ACTIVE</name>
+		<value>0xC4</value>
 		</enumerator>
 		<enumerator>
 		<name>SYS_FW_PROGRESS</name>
 		<value>0x0F</value>
 		</enumerator>
 		<enumerator>
-		<name>OS_BOOT</name>
-		<value>0x1F</value>
+		<name>NA</name>
+		<value>0</value>
 		</enumerator>
 		<enumerator>
 		<name>TEMPERATURE</name>
 		<value>0x01</value>
 		</enumerator>
+		<enumerator>
+		<name>MEMORY</name>
+		<value>0x0c</value>
+		</enumerator>
+		<enumerator>
+		<name>APCI_POWER_STATE</name>
+		<value>0x22</value>
+		</enumerator>
+		<enumerator>
+		<name>FREQ</name>
+		<value>0xC1</value>
+		</enumerator>
+		<enumerator>
+		<name>FAULT</name>
+		<value>0xC7</value>
+		</enumerator>
+		<enumerator>
+		<name>PCI_LINK_PRES</name>
+		<value>0xC4</value>
+		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>SUPPORTED_HOT_PLUG</id>
 		<enumerator>
-		<name>PCA9551</name>
-		<value>0x02</value>
-		</enumerator>
-		<enumerator>
 		<name>NA</name>
 		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>PCA9551</name>
+		<value>0x02</value>
 		</enumerator>
 		<enumerator>
 		<name>MAX5961</name>
@@ -1148,175 +1148,175 @@
 <enumerationType>
 	<id>TYPE</id>
 		<enumerator>
-		<name>XBUS</name>
-		<value>14</value>
-		</enumerator>
-		<enumerator>
-		<name>FSP</name>
-		<value>21</value>
-		</enumerator>
-		<enumerator>
-		<name>DIMM</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>PNOR</name>
-		<value>22</value>
-		</enumerator>
-		<enumerator>
-		<name>NX</name>
-		<value>30</value>
-		</enumerator>
-		<enumerator>
-		<name>OSC</name>
-		<value>23</value>
-		</enumerator>
-		<enumerator>
-		<name>NODE</name>
-		<value>2</value>
-		</enumerator>
-		<enumerator>
-		<name>PCI</name>
-		<value>16</value>
-		</enumerator>
-		<enumerator>
-		<name>DPSS</name>
-		<value>17</value>
-		</enumerator>
-		<enumerator>
-		<name>PCICLKENDPT</name>
-		<value>29</value>
-		</enumerator>
-		<enumerator>
 		<name>CORE</name>
 		<value>7</value>
-		</enumerator>
-		<enumerator>
-		<name>TEST_FAIL</name>
-		<value>35</value>
-		</enumerator>
-		<enumerator>
-		<name>OCC</name>
-		<value>19</value>
-		</enumerator>
-		<enumerator>
-		<name>APSS</name>
-		<value>18</value>
-		</enumerator>
-		<enumerator>
-		<name>OSCPCICLK</name>
-		<value>27</value>
-		</enumerator>
-		<enumerator>
-		<name>SYS</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>MBA</name>
-		<value>13</value>
-		</enumerator>
-		<enumerator>
-		<name>OSCREFCLK</name>
-		<value>26</value>
-		</enumerator>
-		<enumerator>
-		<name>PCIESWITCH</name>
-		<value>32</value>
-		</enumerator>
-		<enumerator>
-		<name>TODCLK</name>
-		<value>24</value>
-		</enumerator>
-		<enumerator>
-		<name>CONTROL_NODE</name>
-		<value>25</value>
-		</enumerator>
-		<enumerator>
-		<name>REFCLKENDPT</name>
-		<value>28</value>
-		</enumerator>
-		<enumerator>
-		<name>L2</name>
-		<value>8</value>
-		</enumerator>
-		<enumerator>
-		<name>L3</name>
-		<value>9</value>
-		</enumerator>
-		<enumerator>
-		<name>EX</name>
-		<value>6</value>
-		</enumerator>
-		<enumerator>
-		<name>MCS</name>
-		<value>11</value>
-		</enumerator>
-		<enumerator>
-		<name>L4</name>
-		<value>10</value>
-		</enumerator>
-		<enumerator>
-		<name>PORE</name>
-		<value>31</value>
-		</enumerator>
-		<enumerator>
-		<name>PROC</name>
-		<value>5</value>
-		</enumerator>
-		<enumerator>
-		<name>ABUS</name>
-		<value>15</value>
-		</enumerator>
-		<enumerator>
-		<name>PSI</name>
-		<value>20</value>
-		</enumerator>
-		<enumerator>
-		<name>LAST_IN_RANGE</name>
-		<value>36</value>
-		</enumerator>
-		<enumerator>
-		<name>NA</name>
-		<value>0</value>
 		</enumerator>
 		<enumerator>
 		<name>CAPP</name>
 		<value>33</value>
 		</enumerator>
 		<enumerator>
-		<name>MEMBUF</name>
-		<value>4</value>
+		<name>PNOR</name>
+		<value>22</value>
+		</enumerator>
+		<enumerator>
+		<name>DIMM</name>
+		<value>3</value>
+		</enumerator>
+		<enumerator>
+		<name>REFCLKENDPT</name>
+		<value>28</value>
+		</enumerator>
+		<enumerator>
+		<name>NX</name>
+		<value>30</value>
+		</enumerator>
+		<enumerator>
+		<name>DPSS</name>
+		<value>17</value>
+		</enumerator>
+		<enumerator>
+		<name>MBA</name>
+		<value>13</value>
+		</enumerator>
+		<enumerator>
+		<name>APSS</name>
+		<value>18</value>
+		</enumerator>
+		<enumerator>
+		<name>TEST_FAIL</name>
+		<value>35</value>
+		</enumerator>
+		<enumerator>
+		<name>PORE</name>
+		<value>31</value>
+		</enumerator>
+		<enumerator>
+		<name>PCICLKENDPT</name>
+		<value>29</value>
+		</enumerator>
+		<enumerator>
+		<name>OSCPCICLK</name>
+		<value>27</value>
 		</enumerator>
 		<enumerator>
 		<name>FSI</name>
 		<value>34</value>
 		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>VPD_TYPE</id>
 		<enumerator>
-		<name>PVPD</name>
+		<name>OSC</name>
+		<value>23</value>
+		</enumerator>
+		<enumerator>
+		<name>XBUS</name>
+		<value>14</value>
+		</enumerator>
+		<enumerator>
+		<name>ABUS</name>
+		<value>15</value>
+		</enumerator>
+		<enumerator>
+		<name>FSP</name>
+		<value>21</value>
+		</enumerator>
+		<enumerator>
+		<name>NODE</name>
+		<value>2</value>
+		</enumerator>
+		<enumerator>
+		<name>L2</name>
+		<value>8</value>
+		</enumerator>
+		<enumerator>
+		<name>CONTROL_NODE</name>
+		<value>25</value>
+		</enumerator>
+		<enumerator>
+		<name>L3</name>
+		<value>9</value>
+		</enumerator>
+		<enumerator>
+		<name>PSI</name>
+		<value>20</value>
+		</enumerator>
+		<enumerator>
+		<name>L4</name>
+		<value>10</value>
+		</enumerator>
+		<enumerator>
+		<name>TODCLK</name>
+		<value>24</value>
+		</enumerator>
+		<enumerator>
+		<name>MEMBUF</name>
 		<value>4</value>
 		</enumerator>
 		<enumerator>
-		<name>MVPD</name>
+		<name>SYS</name>
 		<value>1</value>
 		</enumerator>
 		<enumerator>
-		<name>SBE</name>
-		<value>5</value>
+		<name>PCIESWITCH</name>
+		<value>32</value>
 		</enumerator>
 		<enumerator>
-		<name>SPD</name>
-		<value>3</value>
+		<name>OCC</name>
+		<value>19</value>
 		</enumerator>
 		<enumerator>
 		<name>NA</name>
 		<value>0</value>
 		</enumerator>
 		<enumerator>
+		<name>PROC</name>
+		<value>5</value>
+		</enumerator>
+		<enumerator>
+		<name>EX</name>
+		<value>6</value>
+		</enumerator>
+		<enumerator>
+		<name>LAST_IN_RANGE</name>
+		<value>36</value>
+		</enumerator>
+		<enumerator>
+		<name>OSCREFCLK</name>
+		<value>26</value>
+		</enumerator>
+		<enumerator>
+		<name>PCI</name>
+		<value>16</value>
+		</enumerator>
+		<enumerator>
+		<name>MCS</name>
+		<value>11</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>VPD_TYPE</id>
+		<enumerator>
+		<name>NA</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>SPD</name>
+		<value>3</value>
+		</enumerator>
+		<enumerator>
+		<name>SBE</name>
+		<value>5</value>
+		</enumerator>
+		<enumerator>
 		<name>CVPD</name>
 		<value>2</value>
+		</enumerator>
+		<enumerator>
+		<name>MVPD</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>PVPD</name>
+		<value>4</value>
 		</enumerator>
 </enumerationType>
 <globalSetting>
@@ -5492,10 +5492,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-        <id>MRW_MCS_PREFETCH_RETRY_THRESHOLD</id>
-        <default>0x07</default>
-    </attribute>
-	<attribute>
 		<id>APSS_GPIO_PORT_MODES</id>
 		<default>0x0,0x3</default>
 	</attribute>
@@ -6433,12 +6429,51 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>gpioexp-0/io-0 => vddr_vreg-0/vreg_enable</bus_id>
+		<bus_id>gpioexp-0/io1-1 => vddr_vreg-0/vreg_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>gpioexp-0/</source_path>
-		<source_target>io-0</source_target>
+		<source_target>io1-1</source_target>
 		<dest_path>vddr_vreg-0/</dest_path>
+		<dest_target>vreg_enable</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>gpioexp-0/io1-1 => vddr_vreg-1/vreg_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>gpioexp-0/</source_path>
+		<source_target>io1-1</source_target>
+		<dest_path>vddr_vreg-1/</dest_path>
+		<dest_target>vreg_enable</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>gpioexp-0/io1-1 => vddr_vreg-2/vreg_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>gpioexp-0/</source_path>
+		<source_target>io1-1</source_target>
+		<dest_path>vddr_vreg-2/</dest_path>
+		<dest_target>vreg_enable</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>gpioexp-0/io1-1 => vddr_vreg-3/vreg_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>gpioexp-0/</source_path>
+		<source_target>io1-1</source_target>
+		<dest_path>vddr_vreg-3/</dest_path>
 		<dest_target>vreg_enable</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
