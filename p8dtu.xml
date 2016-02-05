@@ -7232,10 +7232,10 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>vddr_vreg-0/vout => membuf-1/vddr</bus_id>
+		<bus_id>vddr_vreg-1/vout => membuf-1/vddr</bus_id>
 		<bus_type>POWER</bus_type>
 		<cable>no</cable>
-		<source_path>vddr_vreg-0/</source_path>
+		<source_path>vddr_vreg-1/</source_path>
 		<source_target>vout</source_target>
 		<dest_path>membuf-1/</dest_path>
 		<dest_target>vddr</dest_target>
@@ -7245,10 +7245,10 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>vddr_vreg-0/vout => membuf-2/vddr</bus_id>
+		<bus_id>vddr_vreg-2/vout => membuf-2/vddr</bus_id>
 		<bus_type>POWER</bus_type>
 		<cable>no</cable>
-		<source_path>vddr_vreg-0/</source_path>
+		<source_path>vddr_vreg-2/</source_path>
 		<source_target>vout</source_target>
 		<dest_path>membuf-2/</dest_path>
 		<dest_target>vddr</dest_target>
@@ -7258,10 +7258,10 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>vddr_vreg-0/vout => membuf-3/vddr</bus_id>
+		<bus_id>vddr_vreg-3/vout => membuf-3/vddr</bus_id>
 		<bus_type>POWER</bus_type>
 		<cable>no</cable>
-		<source_path>vddr_vreg-0/</source_path>
+		<source_path>vddr_vreg-3/</source_path>
 		<source_target>vout</source_target>
 		<dest_path>membuf-3/</dest_path>
 		<dest_target>vddr</dest_target>
