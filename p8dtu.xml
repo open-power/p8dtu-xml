@@ -3568,6 +3568,27 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/gpioexp-1</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/gpioexp-2</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/gpioexp-3</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/membuf-0</id>
 	<property>
 	<id>FRU_ID</id>
@@ -6016,6 +6037,9 @@
 	<child_id>vddr_vreg-3</child_id>
 	<child_id>UIOconn-0</child_id>
 	<child_id>WIOconn-1</child_id>
+	<child_id>gpioexp-1</child_id>
+	<child_id>gpioexp-2</child_id>
+	<child_id>gpioexp-3</child_id>
 	<attribute>
 		<id>CLASS</id>
 		<default>CARD</default>
@@ -6442,10 +6466,10 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>gpioexp-0/io-1 => vddr_vreg-1/vreg_enable</bus_id>
+		<bus_id>gpioexp-1/io-1 => vddr_vreg-1/vreg_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
-		<source_path>gpioexp-0/</source_path>
+		<source_path>gpioexp-1/</source_path>
 		<source_target>io-1</source_target>
 		<dest_path>vddr_vreg-1/</dest_path>
 		<dest_target>vreg_enable</dest_target>
@@ -6455,10 +6479,10 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>gpioexp-0/io-1 => vddr_vreg-2/vreg_enable</bus_id>
+		<bus_id>gpioexp-2/io-1 => vddr_vreg-2/vreg_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
-		<source_path>gpioexp-0/</source_path>
+		<source_path>gpioexp-2/</source_path>
 		<source_target>io-1</source_target>
 		<dest_path>vddr_vreg-2/</dest_path>
 		<dest_target>vreg_enable</dest_target>
@@ -6468,10 +6492,10 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>gpioexp-0/io-1 => vddr_vreg-3/vreg_enable</bus_id>
+		<bus_id>gpioexp-3/io-1 => vddr_vreg-3/vreg_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
-		<source_path>gpioexp-0/</source_path>
+		<source_path>gpioexp-3/</source_path>
 		<source_target>io-1</source_target>
 		<dest_path>vddr_vreg-3/</dest_path>
 		<dest_target>vreg_enable</dest_target>
@@ -6901,12 +6925,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-1/i2c-spare => gpioexp-0/i2c-slave</bus_id>
+		<bus_id>membuf-1/i2c-spare => gpioexp-1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>membuf-1/</source_path>
 		<source_target>i2c-spare</source_target>
-		<dest_path>gpioexp-0/</dest_path>
+		<dest_path>gpioexp-1/</dest_path>
 		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
@@ -6922,12 +6946,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-2/i2c-spare => gpioexp-0/i2c-slave</bus_id>
+		<bus_id>membuf-2/i2c-spare => gpioexp-2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>membuf-2/</source_path>
 		<source_target>i2c-spare</source_target>
-		<dest_path>gpioexp-0/</dest_path>
+		<dest_path>gpioexp-2/</dest_path>
 		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
@@ -6943,12 +6967,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>membuf-3/i2c-spare => gpioexp-0/i2c-slave</bus_id>
+		<bus_id>membuf-3/i2c-spare => gpioexp-3/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>membuf-3/</source_path>
 		<source_target>i2c-spare</source_target>
-		<dest_path>gpioexp-0/</dest_path>
+		<dest_path>gpioexp-3/</dest_path>
 		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
@@ -14809,6 +14833,186 @@
 	<attribute>
 		<id>TYPE</id>
 		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>gpioexp-1</id>
+	<type>chip-gpioexp-generic</type>
+	<library_target>true</library_target>
+	<instance_name>gpioexp</instance_name>
+	<position>1</position>
+	<child_id>i2c-slave</child_id>
+	<child_id>io-0</child_id>
+	<child_id>io-1</child_id>
+	<child_id>io-2</child_id>
+	<child_id>io-3</child_id>
+	<child_id>io-4</child_id>
+	<child_id>io-5</child_id>
+	<child_id>io-6</child_id>
+	<child_id>io-7</child_id>
+	<child_id>io1-0</child_id>
+	<child_id>io1-1</child_id>
+	<child_id>io1-2</child_id>
+	<child_id>io1-3</child_id>
+	<child_id>io1-4</child_id>
+	<child_id>io1-5</child_id>
+	<child_id>io1-6</child_id>
+	<child_id>io1-7</child_id>
+	<attribute>
+		<id>CHIP_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>GPIO_EXPANDER</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>gpioexp-2</id>
+	<type>chip-gpioexp-generic</type>
+	<library_target>true</library_target>
+	<instance_name>gpioexp</instance_name>
+	<position>2</position>
+	<child_id>i2c-slave</child_id>
+	<child_id>io-0</child_id>
+	<child_id>io-1</child_id>
+	<child_id>io-2</child_id>
+	<child_id>io-3</child_id>
+	<child_id>io-4</child_id>
+	<child_id>io-5</child_id>
+	<child_id>io-6</child_id>
+	<child_id>io-7</child_id>
+	<child_id>io1-0</child_id>
+	<child_id>io1-1</child_id>
+	<child_id>io1-2</child_id>
+	<child_id>io1-3</child_id>
+	<child_id>io1-4</child_id>
+	<child_id>io1-5</child_id>
+	<child_id>io1-6</child_id>
+	<child_id>io1-7</child_id>
+	<attribute>
+		<id>CHIP_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>GPIO_EXPANDER</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>gpioexp-3</id>
+	<type>chip-gpioexp-generic</type>
+	<library_target>true</library_target>
+	<instance_name>gpioexp</instance_name>
+	<position>3</position>
+	<child_id>i2c-slave</child_id>
+	<child_id>io-0</child_id>
+	<child_id>io-1</child_id>
+	<child_id>io-2</child_id>
+	<child_id>io-3</child_id>
+	<child_id>io-4</child_id>
+	<child_id>io-5</child_id>
+	<child_id>io-6</child_id>
+	<child_id>io-7</child_id>
+	<child_id>io1-0</child_id>
+	<child_id>io1-1</child_id>
+	<child_id>io1-2</child_id>
+	<child_id>io1-3</child_id>
+	<child_id>io1-4</child_id>
+	<child_id>io1-5</child_id>
+	<child_id>io1-6</child_id>
+	<child_id>io1-7</child_id>
+	<attribute>
+		<id>CHIP_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>GPIO_EXPANDER</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
