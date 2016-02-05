@@ -6442,6 +6442,45 @@
 		</bus_attribute>
 	</bus>
 	<bus>
+		<bus_id>gpioexp-0/io-1 => vddr_vreg-1/vreg_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>gpioexp-0/</source_path>
+		<source_target>io-1</source_target>
+		<dest_path>vddr_vreg-1/</dest_path>
+		<dest_target>vreg_enable</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>gpioexp-0/io-1 => vddr_vreg-2/vreg_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>gpioexp-0/</source_path>
+		<source_target>io-1</source_target>
+		<dest_path>vddr_vreg-2/</dest_path>
+		<dest_target>vreg_enable</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>gpioexp-0/io-1 => vddr_vreg-3/vreg_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>gpioexp-0/</source_path>
+		<source_target>io-1</source_target>
+		<dest_path>vddr_vreg-3/</dest_path>
+		<dest_target>vreg_enable</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
 		<bus_id>membuf-0/i2c-master => dimmconn-0/dimm-0/spd/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
@@ -6855,6 +6894,69 @@
 		<bus_attribute>
 			<id>I2C_ADDRESS</id>
 		<default>0xAA</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>membuf-1/i2c-spare => gpioexp-0/i2c-slave</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>membuf-1/</source_path>
+		<source_target>i2c-spare</source_target>
+		<dest_path>gpioexp-0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_ADDRESS</id>
+		<default>0x40</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>membuf-2/i2c-spare => gpioexp-0/i2c-slave</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>membuf-2/</source_path>
+		<source_target>i2c-spare</source_target>
+		<dest_path>gpioexp-0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_ADDRESS</id>
+		<default>0x40</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>membuf-3/i2c-spare => gpioexp-0/i2c-slave</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>membuf-3/</source_path>
+		<source_target>i2c-spare</source_target>
+		<dest_path>gpioexp-0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_ADDRESS</id>
+		<default>0x40</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
