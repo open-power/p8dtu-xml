@@ -5577,7 +5577,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PB</id>
-		<default>2400</default>
+		<default>2000</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_PCIE</id>
@@ -5593,7 +5593,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_X</id>
-		<default>4800</default>
+		<default>4000</default>
 	</attribute>
 	<attribute>
 		<id>FRU_ID</id>
