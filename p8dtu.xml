@@ -5753,7 +5753,7 @@
 	</attribute>
 	<attribute>
 		<id>OPAL_MODEL</id>
-		<default>ibm,firestone</default>
+		<default>supermicro,p8dtu</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
