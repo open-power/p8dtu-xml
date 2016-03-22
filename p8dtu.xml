@@ -10740,7 +10740,7 @@
 	<hidden_child_id>membuf_func_sensor</hidden_child_id>
 	<attribute>
 		<id>CENTAUR_ECID_FRU_ID</id>
-		<default>0xFF</default>
+		<default>0x4</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_ID</id>
@@ -13603,7 +13603,7 @@
 	<hidden_child_id>membuf_func_sensor</hidden_child_id>
 	<attribute>
 		<id>CENTAUR_ECID_FRU_ID</id>
-		<default>0xFF</default>
+		<default>0x4</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_ID</id>
@@ -13685,7 +13685,7 @@
 	<hidden_child_id>membuf_func_sensor</hidden_child_id>
 	<attribute>
 		<id>CENTAUR_ECID_FRU_ID</id>
-		<default>0xFF</default>
+		<default>0x4</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_ID</id>
@@ -13767,7 +13767,7 @@
 	<hidden_child_id>membuf_func_sensor</hidden_child_id>
 	<attribute>
 		<id>CENTAUR_ECID_FRU_ID</id>
-		<default>0xFF</default>
+		<default>0x4</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_ID</id>
