@@ -5491,7 +5491,7 @@
  	</property>
  	<property>
  	<id>IPMI_SENSOR_ID</id>
- 	<value>0xDA</value>
+ 	<value>0x48</value>
  	</property>
 </globalSetting>
 <globalSetting>
