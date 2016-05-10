@@ -1643,7 +1643,7 @@
 	</property>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 </globalSetting>
 <globalSetting>
