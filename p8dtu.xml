@@ -16959,7 +16959,7 @@
 	<position>-1</position>
 	<attribute>
 		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default></default>
+		<default>15</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
