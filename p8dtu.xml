@@ -5519,6 +5519,7 @@
 	<hidden_child_id>power_limit_sensor</hidden_child_id>
 	<hidden_child_id>ps_derating_sensor</hidden_child_id>
 	<hidden_child_id>dimm_freq_sensor</hidden_child_id>
+	<hidden_child_id>turbo_allowed_sensor</hidden_child_id>
 	<attribute>
 		<id>ALL_MCS_IN_INTERLEAVING_GROUP</id>
 		<default>1</default>
