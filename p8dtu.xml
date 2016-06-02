@@ -7707,7 +7707,7 @@
 	</attribute>
 	<attribute>
 		<id>PSI_BRIDGE_BASE_ADDR</id>
-		<default>0,0x0000000000000000</default>
+		<default>1,0x0003FFFE80000000,0x2000000,0x400000,0x0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
