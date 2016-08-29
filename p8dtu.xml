@@ -1185,7 +1185,7 @@
 		</enumerator>
 		<enumerator>
 		<name>TEST_FAIL</name>
-		<value>35</value>
+		<value>36</value>
 		</enumerator>
 		<enumerator>
 		<name>PORE</name>
@@ -1277,7 +1277,11 @@
 		</enumerator>
 		<enumerator>
 		<name>LAST_IN_RANGE</name>
-		<value>36</value>
+		<value>37</value>
+		</enumerator>
+		<enumerator>
+		<name>TPM</name>
+		<value>35</value>
 		</enumerator>
 		<enumerator>
 		<name>OSCREFCLK</name>
@@ -5764,6 +5768,10 @@
 		<default>3000</default>
 	</attribute>
 	<attribute>
+		<id>TPM_REQUIRED</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
 		<id>OPAL_MODEL</id>
 		<default>supermicro,p8dtu</default>
 	</attribute>
@@ -5955,6 +5963,7 @@
 	<instance_name>node</instance_name>
 	<position>0</position>
 	<child_id>motherboard-0</child_id>
+	<child_id>tpm-0</child_id>
 	<hidden_child_id>motherboard_fault_sensor</hidden_child_id>
 	<hidden_child_id>ref_clk_sensor</hidden_child_id>
 	<hidden_child_id>pci_clk_sensor</hidden_child_id>
@@ -6010,6 +6019,49 @@
 		</bus_attribute>
 	</bus>
 </targetInstance>
+<!-- TPMs for node 0 -->
+
+<targetInstance>
+    <id>tpm-0</id>
+    <library_target>true</library_target>
+    <position>0</position>
+    <type>chip-tpm-cectpm</type>
+    <instance_name>tpm</instance_name>
+    <attribute><id>HUID</id><default>0x00350001</default></attribute>
+    <attribute><id>POSITION</id><default>0</default></attribute>
+    <attribute>
+       <id>PHYS_PATH</id>
+       <default>physical:sys-0/node-0/tpm-0</default>
+    </attribute>
+    <attribute>
+       <id>AFFINITY_PATH</id>
+       <default>affinity:sys-0/node-0/tpm-0</default>
+    </attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>TPM</default>
+	</attribute>
+    <attribute>
+         <id>MRW_TYPE</id>
+         <default>NA</default>
+    </attribute>
+    <attribute>
+       <id>TPM_INFO</id>
+       <default>
+           <field><id>tpmEnabled</id><value>1</value></field>
+           <field>
+              <id>i2cMasterPath</id>
+              <value>physical:sys-0/node-0/proc-0</value>
+           </field>
+           <field><id>port</id><value>2</value></field>
+           <field><id>devAddrLocality0</id><value>0xAE</value></field>
+           <field><id>devAddrLocality4</id><value>0xFF</value></field>
+           <field><id>engine</id><value>1</value></field>
+           <field><id>byteAddrOffset</id><value>0x01</value></field>
+       </default>
+    </attribute>
+</targetInstance>
+
 <targetInstance>
 	<id>motherboard-0</id>
 	<type>card-motherboard</type>
@@ -7573,7 +7625,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
-		<default>1000,1000,0,0,0,0</default>
+		<default>1000,1000,0,0,0,400</default>
 	</attribute>
 	<attribute>
 		<id>IBSCOM_PROC_BASE_ADDR</id>
