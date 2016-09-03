@@ -7356,7 +7356,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>CPU1</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -11797,7 +11797,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P1M1-DIMMA</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -12113,7 +12113,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P1M1-DIMMB</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -12149,7 +12149,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P1M1-DIMMC</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -12185,7 +12185,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P1M1-DIMMD</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -13546,7 +13546,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>CPU2</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -13907,7 +13907,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P1M2-DIMMA</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -13943,7 +13943,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P1M2-DIMMB</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -13979,7 +13979,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P1M2-DIMMC</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -14015,7 +14015,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P1M2-DIMMD</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -14051,7 +14051,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P2M1-DIMMA</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -14087,7 +14087,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P2M1-DIMMB</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -14123,7 +14123,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P2M1-DIMMC</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -14159,7 +14159,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P2M1-DIMMD</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -14195,7 +14195,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P2M2-DIMMA</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -14231,7 +14231,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P2M2-DIMMB</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -14267,7 +14267,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P2M2-DIMMC</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -14303,7 +14303,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>P2M2-DIMMD</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
