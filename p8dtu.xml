@@ -7470,6 +7470,10 @@
 		<default>CARD</default>
 	</attribute>
 	<attribute>
+		<id>I2C_BUS_SPEED_ARRAY</id>
+		<default>1000,1000,0,0,0,400</default>
+	</attribute>
+	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -7622,10 +7626,6 @@
 	<attribute>
 		<id>FSP_BASE_ADDR</id>
 		<default>0,0x0000000000000000</default>
-	</attribute>
-	<attribute>
-		<id>I2C_BUS_SPEED_ARRAY</id>
-		<default>1000,1000,0,0,0,400</default>
 	</attribute>
 	<attribute>
 		<id>IBSCOM_PROC_BASE_ADDR</id>
@@ -13531,7 +13531,7 @@
 	<library_target>false</library_target>
 	<instance_name>proc_socket</instance_name>
 	<position>1</position>
-	<child_id>module-0</child_id>
+	<child_id>module-1</child_id>
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
@@ -13638,6 +13638,46 @@
 		<id>PROC_PCIE_IOP_ZCAL_CONTROL</id>
 		<default>0x00000080,0x00000080
 			</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>module-1</id>
+	<type>module-module-turismo</type>
+	<library_target>false</library_target>
+	<instance_name>module</instance_name>
+	<position>1</position>
+	<child_id>proc</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default>CARD</default>
+	</attribute>
+	<attribute>
+		<id>I2C_BUS_SPEED_ARRAY</id>
+		<default>1000,1000,0,0,0,0</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
