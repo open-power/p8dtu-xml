@@ -7555,6 +7555,10 @@
 	<hidden_child_id>mcs-7</hidden_child_id>
 	<hidden_child_id>cpu_temp_sensor</hidden_child_id>
 	<hidden_child_id>cpu_func_sensor</hidden_child_id>
+    <attribute>
+        <id>PROC_SECURITY_SETUP_VECTOR</id>
+        <default>0x0000000000000000</default>
+    </attribute>
 	<attribute>
 		<id>CHIP_ID</id>
 		<default></default>
@@ -13655,6 +13659,10 @@
 	<instance_name>module</instance_name>
 	<position>1</position>
 	<child_id>proc</child_id>
+    <attribute>
+        <id>PROC_SECURITY_SETUP_VECTOR</id>
+        <default>0x0000000000000000</default>
+    </attribute>
 	<attribute>
 		<id>CLASS</id>
 		<default>CARD</default>
