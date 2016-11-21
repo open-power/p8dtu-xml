@@ -5354,7 +5354,7 @@
 	</property>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x09</value>
+	<value>0x0A</value>
 	</property>
 </globalSetting>
 <globalSetting>
